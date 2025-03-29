@@ -51,7 +51,7 @@
 #endif
 
 
-/* TODO: there may be problems using -o2 under Android platform */
+/* there may be problems using -o2 under Android platform */
 #if defined(__GNUC__) && !defined(ANDROID)
 #   define XQC_UNLIKELY(cond) __builtin_expect(!!(cond), 0)
 #   define XQC_LIKELY(cond) __builtin_expect(!!(cond), 1)

@@ -1,5 +1,6 @@
 /build
 /__cmake_systeminformation
+/cmake-build-debug
 
 
 # remove nlohmann and xquic
@@ -7,5 +8,3 @@
 #./include/nlohmann
 /test/demo_*/
 
-# remove certs
-/certs

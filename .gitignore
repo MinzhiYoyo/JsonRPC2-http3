@@ -5,3 +5,7 @@
 # remove nlohmann and xquic
 #./include/xquic
 #./include/nlohmann
+/test/demo_quic/
+
+# remove certs
+/certs
